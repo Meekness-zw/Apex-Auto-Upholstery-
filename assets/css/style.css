@@ -435,9 +435,16 @@ body.nav-open .nav-toggle span:nth-child(3) { top: 21px; transform: rotate(-45de
   .gallery-grid.masonry .g-item { grid-row: auto !important; }
   .hero-badges { gap: 18px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+
+  /* --- mobile buttons: stack full-width, let long labels wrap --- */
+  .btn { white-space: normal; text-align: center; }
+  .hero-cta, .cta-actions { flex-direction: column; align-items: stretch; }
+  .hero-cta .btn, .cta-actions .btn { width: 100%; }
+  .form .btn[type="submit"] { width: 100%; }
 }
 @media (max-width: 460px) {
   .footer-grid { grid-template-columns: 1fr; }
-  .hero-cta { flex-direction: column; align-items: stretch; }
-  .hero-cta .btn { width: 100%; }
+  .btn { padding: 13px 20px; font-size: .9rem; gap: 8px; }
+  .btn--lg { padding: 15px 22px; font-size: .95rem; }
+  .btn svg { width: 16px; height: 16px; }
 }
