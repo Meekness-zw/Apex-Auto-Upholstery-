@@ -164,7 +164,7 @@ body.nav-open .nav-toggle span:nth-child(3) { top: 21px; transform: rotate(-45de
     linear-gradient(115deg, rgba(6,20,36,.94) 0%, rgba(10,32,56,.78) 45%, rgba(6,20,36,.45) 100%),
     radial-gradient(120% 90% at 80% 10%, rgba(62,160,255,.22), transparent 60%);
 }
-.hero-inner { padding: 140px 0 80px; max-width: 760px; }
+.hero-inner { padding-block: 140px 80px; max-width: 760px; }
 .hero h1 { color: #fff; margin: 18px 0 22px; }
 .hero h1 .word { display: inline-block; }
 .hero p.lead { color: rgba(233,240,248,.9); max-width: 560px; }
