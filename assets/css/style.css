@@ -473,7 +473,7 @@ body.nav-open .nav-toggle span:nth-child(3) { top: 21px; transform: rotate(-45de
 .ba-shot span {
   position: absolute; top: 10px; left: 10px; z-index: 2;
   font-size: .66rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
-  padding: 5px 10px; border-radius: var(--r-pill); color: #fff;
+  padding: 5px 10px; border-radius: var(--r); color: #fff;
 }
 .ba-shot.is-before span { background: rgba(6, 20, 36, .82); }
 .ba-shot.is-after  span { background: var(--accent); color: var(--navy-950); }
