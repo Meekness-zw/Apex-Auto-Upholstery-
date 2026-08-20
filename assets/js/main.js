@@ -1,4 +1,4 @@
-/* Apex Auto Upholstery - interactions & animations */
+/* Avelon Swatches - interactions & animations */
 (function () {
   'use strict';
 
